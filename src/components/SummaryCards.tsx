@@ -18,7 +18,7 @@ const textColors = ['light-red', 'orange-yellow', 'green-teal', 'co-blue'];
 const SummaryCards = () => {
 	return (
 		<>
-			{data.map(({ category }, i) => (
+			{data.map(({ category, score }, i) => (
 				<div
 					className='card flex mb-4 items-center justify-between p-[1.1rem] rounded-lg'
 					style={{ backgroundColor: colorCodes[i] }}>
@@ -27,7 +27,7 @@ const SummaryCards = () => {
 						<p className={'text-' + textColors[i]}>{category}</p>
 					</div>
 					<div className='scoreRating flex items-center gap-x-1'>
-						<p className='text-dark-g-blue font-semibold'>80</p>
+						<p className='text-dark-g-blue font-semibold'>{score}</p>
 						<p>/</p>
 						<p className='opacity-50'>100</p>
 					</div>

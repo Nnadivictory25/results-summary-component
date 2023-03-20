@@ -9,7 +9,7 @@ const Summary = () => {
         <SummaryCards />
 			</div>
 
-			<button className='p-4 rounded-full text-white bg-dark-g-blue w-full'>
+			<button className='p-4 rounded-full text-white bg-dark-g-blue w-full mb-4 md:mb-0 btn'>
 				Continue
 			</button>
 		</div>
