@@ -47,3 +47,12 @@ Use transparency to get the colour variations necessary to match the design. Hin
 
 - Family: [Hanken Grotesk](https://fonts.google.com/specimen/Hanken+Grotesk)
 - Weights: 500, 700, 800
+
+bg
+background: rgb(120,87,255);
+background: linear-gradient(180deg, rgba(120,87,255,1) 0%, rgba(46,43,233,1) 73%);
+
+
+circle
+background: rgb(78,33,202);
+background: linear-gradient(4deg, rgba(78,33,202,1) 17%, rgba(36,33,202,1) 73%);
