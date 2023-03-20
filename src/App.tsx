@@ -6,10 +6,12 @@ import Summary from "./components/Summary"
 function App() {
 
   return (
+    <main>
     <GridContainer>
       <Score />
       <Summary />
     </GridContainer>
+    </main>
   )
 }
 
