@@ -6,7 +6,7 @@ interface Props {
 
 const GridContainer = ({ children }: Props) => {
 	return (
-		<div className='grid md:grid-cols-2 md:gap-x-4 md:h-[410px] max-w-2xl mx-auto md:mt-[10%]'>
+		<div className='grid md:grid-cols-2 bg-white  max-w-2xl mx-auto md:mt-[10%] overflow-hidden md:rounded-[1.7rem] shadow-lg'>
 			{children}
 		</div>
 	);
