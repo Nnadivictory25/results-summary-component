@@ -11,7 +11,7 @@ const colorCodes = [
 	'rgba(17, 37, 212, 0.1)',
 ];
 
-const imgs = [reactionIcon, memoryIcon, verbalIcon, visualIcon];
+const imgs = [reactionIcon, memoryIcon, verbalIcon, visualIcon]
 
 const textColors = ['text-light-red', 'text-orange-yellow', 'text-green-teal', 'text-co-blue'];
 
