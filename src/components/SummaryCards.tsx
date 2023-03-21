@@ -11,9 +11,14 @@ const colorCodes = [
 	'rgba(17, 37, 212, 0.1)',
 ];
 
-const imgs = [reactionIcon, memoryIcon, verbalIcon, visualIcon]
+const imgs = [reactionIcon, memoryIcon, verbalIcon, visualIcon];
 
-const textColors = ['text-light-red', 'text-orange-yellow', 'text-green-teal', 'text-co-blue'];
+const textColors = [
+	'text-light-red',
+	'text-orange-yellow',
+	'text-green-teal',
+	'text-co-blue',
+];
 
 const SummaryCards = () => {
 	return (
@@ -21,9 +26,8 @@ const SummaryCards = () => {
 			{data.map(({ category, score }, i) => (
 				<div
 					className='card flex mb-4 items-center justify-between p-[.8rem] rounded-lg'
-                    style={{ backgroundColor: colorCodes[i] }}
-                    key={category}
-                >
+					style={{ backgroundColor: colorCodes[i] }}
+					key={category}>
 					<div className='flex items-center gap-x-3'>
 						<img src={imgs[i]} />
 						<p className={textColors[i]}>{category}</p>
